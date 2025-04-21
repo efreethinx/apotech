@@ -1,0 +1,101 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+.sidebar .nav-header {
+    background-color: var(--light);
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 0.25rem;
+}
+
+.form-group.has-error input,
+.form-group.has-error select,
+.form-group.has-error textarea {
+    border-color: var(--danger) !important;
+}
+
+.help-block.with-errors ul {
+    margin-bottom: 0 !important;
+}
+
+.help-block.with-errors ul li {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: var(--danger) !important;
+}
+
+.modal-title {
+    font-size: 1.25rem !important;
+    margin-bottom: 0 !important;
+}
+
+.toasts-top-right {
+    z-index: 1200 !important;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.custom-control-label::before {
+    background-color: #fff;
+    border: 1px solid #adb5bd;
+    box-shadow: none;
+}
+
+.custom-control-input:checked~.custom-control-label.border-light::before {
+    border-color: #fff;
+}
+
+.user-panel {
+    border-radius: 0.25rem 0.25rem 0 0;
+    padding-right: 1rem;
+}
+
+.user-panel:hover {
+    background: var(--light);
+}
+
+.tampil-bayar {
+    font-size: 3.5em;
+    text-align: center;
+    height: 100px;
+    color: var(--light);
+    padding: 10px;
+}
+
+.tampil-terbilang {
+    padding: 10px;
+    background: var(--light);
+}
+
+@media (max-width: 768px) {
+    .tampil-bayar {
+        font-size: 3em;
+        height: 70px;
+        padding-top: 5px;
+    }
+}
+
+.table-pembelian tbody tr:last-child {
+    display: none;
+}

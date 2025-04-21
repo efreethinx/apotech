@@ -1,0 +1,9 @@
+.login-page {
+  background-color: #fff;
+  padding-top: 5em;
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: none;
+}
